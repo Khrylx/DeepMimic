@@ -1,12 +1,10 @@
 #include "SpAlg.h"
 #include <iostream>
 
-#ifdef _LINUX_
 	// Should initilize variables in cpp
 	const int cSpAlg::gSpVecSize;
 	const int cSpAlg::gSVTransRows;
 	const int cSpAlg::gSVTransCols;
-#endif
 
 cSpAlg::tSpVec cSpAlg::ConvertCoordM(const tSpVec& m0, const tVector& origin0, const tVector& origin1)
 {
